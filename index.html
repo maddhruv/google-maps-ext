@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Maps</title>
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <style>
+  	body{
+  		width:400px;
+  	}  	
+  </style>
+</head>
+<body>
+	
+	<form id="searchBox" action="result.html">
+		
+          <input placeholder="Enter your location..." id="search" type="text" class="validate" name="search"> 
+           <button class="btn waves-effect waves-light" id="submit-btn" type="submit" name="action">Search</button>         
+
+    </form>
+    	
+      <script src="api.js">
+      	
+      </script>
+	<div id="map"></div>
+	
+	
+
+</body>
+</html>
